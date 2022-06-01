@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+body {
+    
+    background-image: linear-gradient(to bottom, #dc3545, #ed6c92, #eca2ce, #ebd3f1, #ffffff);
+}
+
+.card{
+    max-width: 300px;
+    height: 600px;
+}
+.card-img{
+    height: 250px;
+    
+}
